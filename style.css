@@ -1,0 +1,29 @@
+
+#main_container {
+    width: 500px;
+    background: aqua;
+    display: flex; /* Enabled flex for centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Added padding for spacing */
+    border-radius: 10px; /* Added rounded corners */
+}
+
+#task_list {
+    width: 100%;
+    max-width: 400px; /* Adjusted width for better layout */
+    background: rgb(160, 100, 100);
+    margin-bottom: 20px;
+    padding: 10px; /* Added padding for spacing */
+    border-radius: 5px; /* Added rounded corners */
+    list-style-type: none; /* Removed default list bullets */
+    color: white; /* Improved text visibility */
+}
+
+#task_list li {
+    padding: 5px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    border-radius: 3px;
+}
